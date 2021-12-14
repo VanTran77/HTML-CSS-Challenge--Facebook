@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>VanTran - Final Front End Challenge - Facebook</title>
+</head>
+<body>
+        <header>
+            <div id="main-header">
+                <div class="header-fblogo">
+                    <img src="./Images/fblogo.png" alt="Facebook Logo">
+                </div>
+                <div class="header-login">
+                    <form action="process.php" method="POST">
+                        <div>
+                            <label class="block-item">Email</label>
+                            <input type="Email" name="email">
+                        </div>
+                        <div>
+                            <label class="block-item">Password</label>
+                            <input type="text" name="password">
+                            <input type="submit" value="Login">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>    
+        <main>
+            <section>
+                    <div id="main-container">
+                        <div class="container-left-img">
+                            <h4>Facebook helps you connect and share with the people in your life</h4>
+                            <img src="./Images/people.png" alt="">
+                        </div>
+                        <div class="container-right-SignUp">
+                            <h4>Sign Up</h4>
+                            <p>It's free and always will be.</p>
+                            <form action="process.php" method="POST">
+                                <div>
+                                    <label>First Name:</label>
+                                    <input type="text" name="firstName">
+                                </div>
+                                <div>
+                                    <label>Last Name</label>
+                                    <input type="text" name="lastName">
+                                </div>
+                                <div>
+                                    <label>Your Email:</label>
+                                    <input type="email" name="email">
+                                </div>
+                                <div>
+                                    <label>Re-enter Email:</label>
+                                    <input type="email" name="email">
+                                </div>
+                                <div>
+                                    <label>New Password</label>
+                                    <input type="text" name="password">
+                                </div>
+                                <div>
+                                    <label>I am:</label>
+                                    <select name="gender">
+                                        <option>Select Sex:</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label>Birthday:</label>
+                                    <input type="date" name="birtday">
+                                </div>
+                            </form>
+                            <div class="container-right-SignUp-content">
+                                <a href="">Why do you need to provide my birthday</a>
+                                <p>By clicking Sign Up, you agree to our <a href="">Terms</a> and that you have read and understand our <a href="">Data Use Policy</a></p>
+                                <button >Sign Up</button>
+                            </div>
+                            <div class="container-right-SignUp-CreatePageContent">
+                                <p>
+                                    <a style="font-weight: bold;" href="">Create a Page</a> for a celebrity, brand or business.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+
+    <footer id="main-footer">
+        <div class="footer-languages">
+            <a class="block-item" href="">English (US)</a>
+            <a class="block-item" href="">Español</a>
+            <a class="block-item" href="">Português (Brasil)</a>
+            <a class="block-item" href="">Français (France)</a>
+            <a class="block-item" href="">Deutsch</a>
+            <a class="block-item" href="">Italiano</a>
+            <a class="block-item" href="">العربية</a>
+            <a class="block-item" href="">हिन्दी</a>
+            <a class="block-item" href="">中文(简体)</a>
+            <a class="block-item" href="">日本語</a>
+            <a class="block-item more-languages" href="">...</a>
+        </div>
+        <div class="footer-connections">
+            <div class="footer-left-copyright">
+                <p style="color:darkgoldenrod; font-weight: bold;">Facebook &copy; 2012 - <a href="">English (US)</a></p>
+            </div>
+            <div class="footer-right-info">
+                <div>
+                    <a href="">Mobile</a> &#183;
+                    <a href="">Find Friends</a> &#183;
+                    <a href="">Badges</a> &#183;
+                    <a href="">People</a> &#183;
+                    <a href="">Pages</a> &#183;
+                    <a href="">About</a> &#183;
+                    <a href="">Advertising</a> &#183;
+                </div>
+                    <a href="">Create a Page</a>  &#183;
+                    <a href="">Developers</a> &#183;
+                    <a href="">Careers</a> &#183;
+                    <a href="">Privacy</a> &#183;
+                    <a href="">Terms</a> &#183;
+                    <a href="">Help</a>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
